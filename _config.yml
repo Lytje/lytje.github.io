@@ -1,5 +1,5 @@
 url: https://www.lisannemathijssen.nl
-baseurl: 
+baseurl:
 
 # Site settings
 title: Lisanne Mathijssen
@@ -14,51 +14,27 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Lisanne Mathijssen
   pic: 1
-  position: Lead Designer
+  position: Redacteur en schrijver
   social:
     - title: twitter
-      url: #
+      url: http://twitter.com/Lytje
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: http://facebook.com/lisannemathijssen
     - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: http://linkedin.com/in/lisannemathijssen
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    - title: twitter
+      url: http://twitter.com/Lytje
+    - title: facebook
+      url: http://facebook.com/lisannemathijssen
+    - title: linkedin
+      url: http://linkedin.com/in/lisannemathijssen
+    - title: pencil
+      url: http://www.taal-correctie.nl
 
 # Postal address (add as many lines as necessary)
 address:

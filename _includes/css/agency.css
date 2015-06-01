@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
@@ -55,6 +55,10 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+h4 {
+  padding-top:20px;
 }
 
 .img-centered {
@@ -176,8 +180,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
+    text-transform: uppercase;
     color: #{{ site.color.primary }};
+    font-size: 1.5em;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -211,6 +217,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
+    font-size: 1.5em;
 }
 
 .navbar-default .nav li a:hover,
@@ -258,15 +265,17 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
     }
 }
 
 header {
+  position: relative;
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+    background-color: #000;
     background-image: url(../img/header-bg.jpg);
+    opacity: 0.4;
+    background-attachment: scroll;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -276,11 +285,13 @@ header {
 }
 
 header .intro-text {
+  opacity: 0;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
+  opacity: 0;
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
@@ -289,6 +300,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
+  opacity: 0;
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -340,6 +352,10 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+section h3.section-subheading em {
+  font-style: normal;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -349,6 +365,10 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.service-heading a, a:hover, a:visited, a:active {
+  color: #333;
 }
 
 #portfolio .portfolio-item {
@@ -861,4 +881,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+    background-color: #000;
+}
+
+section, footer {
+  background-color: #fff;
 }
