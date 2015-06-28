@@ -35,13 +35,13 @@ a.active {
     outline: 0;
 }
 
-a {
+a, a:visited {
     color: #{{ site.color.primary }};
 }
 
 a:hover,
 a:focus,
-a:active,
+a:active
 a.active {
     color: #{{ site.color.secondary }};
 }
@@ -369,7 +369,7 @@ section h3.section-subheading em {
     text-transform: none;
 }
 
-.service-heading a, a:hover, a:visited, a:active {
+.service-heading a, .service-heading a:hover, .service-heading a:visited, .service-heading a:active {
   color: #333;
 }
 

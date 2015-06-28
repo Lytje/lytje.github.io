@@ -24,6 +24,8 @@ people:
       url: http://facebook.com/lisannemathijssen
     - title: linkedin
       url: http://linkedin.com/in/lisannemathijssen
+    - title: envelope-o
+      url: mailto:lisannemathijssen@gmail.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -35,6 +37,8 @@ social:
       url: http://linkedin.com/in/lisannemathijssen
     - title: pencil
       url: http://www.taal-correctie.nl
+    - title: envelope-o
+      url: mailto:lisannemathijssen@gmail.com
 
 # Postal address (add as many lines as necessary)
 address:
