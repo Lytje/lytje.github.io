@@ -46,6 +46,14 @@ a.active {
     color: #{{ site.color.secondary }};
 }
 
+a.author {
+    color: #{{ site.color.secondary-dark }};
+}
+
+a.portfolio {
+    color: #{{ site.color.secondary-dark }};
+}
+
 h1,
 h2,
 h3,
@@ -270,7 +278,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
   position: relative;
-  height: 75%;
+  height: 50%;
   min-height: 300px;
     text-align: center;
     color: #fff;
@@ -361,6 +369,9 @@ section h3.section-subheading em {
 @media(min-width:768px) {
     section {
         padding: 150px 0;
+    }
+    section#intro {
+      padding: 50px 0;      
     }
 }
 
